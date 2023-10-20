@@ -1,6 +1,6 @@
 import cv2
 
-cascade_classifier = cv2.CascadeClassifier('../data/haarcascade_fullbody.xml')
+cascade_classifier = cv2.CascadeClassifier('C:/Users/Alejandro Rojas/Documents/GitHub/cameraPython/data/haarcascade_frontalface_default.xml')
 
 cap = cv2.VideoCapture(0)
 
