@@ -1,4 +1,5 @@
 import cv2
+#import dlib 
 
 cascade_classifier = cv2.CascadeClassifier('C:/Users/Alejandro Rojas/Documents/GitHub/cameraPython/data/haarcascade_frontalface_default.xml')
 
